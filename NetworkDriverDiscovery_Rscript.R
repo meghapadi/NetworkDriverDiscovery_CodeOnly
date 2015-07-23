@@ -1,6 +1,6 @@
 ## Megha Padi
 ## July 9, 2015
-## Code to accompany manuscript 
+## Code to accompany manuscript entitled
 ## "Integrating transcriptional and protein interaction networks to discover condition-specific master regulators"
 
 # -------------- Read in yeast rapamycin data ---------------

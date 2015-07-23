@@ -1,5 +1,5 @@
 ## Megha Padi
-## July 9, 2015
+## July 23, 2015
 ## Code to accompany manuscript entitled
 ## "Integrating transcriptional and protein interaction networks to discover condition-specific master regulators"
 
@@ -895,7 +895,7 @@ for (i in 1:length(per.unique))
 
 ## Heat shock
 ## data from Gibney PNAS 2013 Tables 2,3,4 (pooled all the genes)
-## and Jarolim Genes Genomes Genetics (G3) 2013, Supplementary File S1 (took all the genes)
+## and Jarolim Genes Genomes Genetics (G3) 2013, Supplementary File S1 (pooled all the genes)
 
 gibney.file <- read.table("YeastDrivers/Gibney_PNAS_2013/Table2_table3_table4.txt",sep="\t",header=F)
 hs.driv1 <- as.character(gibney.file[,1])
@@ -927,7 +927,7 @@ diam.drivers <- unique(as.character(thorpe.file[as.character(thorpe.file[,"Diami
 
 ## Sorbitol
 ## Downloaded from http://genomics.lbl.gov/YeastFitnessData/websitefiles/cel_index.html on May 19, 2015
-## we use the cutoffs for statistical significance suggested in the supp info
+## We use the cutoffs for statistical significance suggested in the supp info
 
 
 sorb.file1 <- read.table("YeastDrivers/Giaever_Nature_2002/Gen5_8_1.5M-SorbitolA_res.txt",header=F,sep="\t",quote="\"")
